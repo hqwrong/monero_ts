@@ -39,17 +39,17 @@
     <message>
         <location filename="../src/wallet/api/pending_transaction.cpp" line="114"/>
         <source>daemon is busy. Please try again later.</source>
-        <translation>守护进程正忙，请稍后再试</translation>
+        <translation>后台程序正忙，请稍后再试</translation>
     </message>
     <message>
         <location filename="../src/wallet/api/pending_transaction.cpp" line="117"/>
         <source>no connection to daemon. Please make sure daemon is running.</source>
-        <translation>连接不上守护程序，请确认守护程序正在运行</translation>
+        <translation>连接不上后台程序，请确认后台程序正在运行</translation>
     </message>
     <message>
         <location filename="../src/wallet/api/pending_transaction.cpp" line="121"/>
         <source>transaction %s was rejected by daemon with status: </source>
-        <translation>交易 %s 被守护程序拒绝,状态:</translation>
+        <translation>交易%s被后台程序拒绝,状态:</translation>
     </message>
     <message>
         <location filename="../src/wallet/api/pending_transaction.cpp" line="126"/>
@@ -103,22 +103,22 @@
     <message>
         <location filename="../src/wallet/api/unsigned_transaction.cpp" line="170"/>
         <source>with no destinations</source>
-        <translation type="unfinished"></translation>
+        <translation>目标地址为空</translation>
     </message>
     <message>
         <location filename="../src/wallet/api/unsigned_transaction.cpp" line="176"/>
         <source>%s change to %s</source>
-        <translation type="unfinished"></translation>
+        <translation>找零 %s 到 %s</translation>
     </message>
     <message>
         <location filename="../src/wallet/api/unsigned_transaction.cpp" line="179"/>
         <source>no change</source>
-        <translation type="unfinished"></translation>
+        <translation>没有找零</translation>
     </message>
     <message>
         <location filename="../src/wallet/api/unsigned_transaction.cpp" line="181"/>
         <source>Loaded %lu transactions, for %s, fee %s, %s, %s, with min mixin %lu. %s</source>
-        <translation type="unfinished"></translation>
+        <translation>已加载%lu笔交易，共%s, 手续费%s, %s, %s, 最少混淆%lu. %s </translation>
     </message>
 </context>
 <context>
@@ -126,193 +126,193 @@
     <message>
         <location filename="../src/wallet/api/wallet.cpp" line="942"/>
         <source>payment id has invalid format, expected 16 or 64 character hex string: </source>
-        <translation type="unfinished"></translation>
+        <translation>支付ID格式不正确,应为16或64位的16进制字符串: </translation>
     </message>
     <message>
         <location filename="../src/wallet/api/wallet.cpp" line="952"/>
         <source>Failed to add short payment id: </source>
-        <translation type="unfinished"></translation>
+        <translation>加入短支付ID失败</translation>
     </message>
     <message>
         <location filename="../src/wallet/api/wallet.cpp" line="978"/>
         <location filename="../src/wallet/api/wallet.cpp" line="1072"/>
         <source>daemon is busy. Please try again later.</source>
-        <translation type="unfinished"></translation>
+        <translation>后台程序正忙. 请稍后再试.</translation>
     </message>
     <message>
         <location filename="../src/wallet/api/wallet.cpp" line="981"/>
         <location filename="../src/wallet/api/wallet.cpp" line="1075"/>
         <source>no connection to daemon. Please make sure daemon is running.</source>
-        <translation type="unfinished"></translation>
+        <translation>连接不上后台程序，请确认后台程序正在运行.</translation>
     </message>
     <message>
         <location filename="../src/wallet/api/wallet.cpp" line="984"/>
         <location filename="../src/wallet/api/wallet.cpp" line="1078"/>
         <source>RPC error: </source>
-        <translation type="unfinished"></translation>
+        <translation>RPC错误: </translation>
     </message>
     <message>
         <location filename="../src/wallet/api/wallet.cpp" line="1081"/>
         <source>failed to get random outputs to mix</source>
-        <translation type="unfinished"></translation>
+        <translation>获取不到随机输出，混淆失败</translation>
     </message>
     <message>
         <location filename="../src/wallet/api/wallet.cpp" line="994"/>
         <location filename="../src/wallet/api/wallet.cpp" line="1088"/>
         <source>not enough money to transfer, available only %s, sent amount %s</source>
-        <translation type="unfinished"></translation>
+        <translation>余额不足,余额为%s, 要发送的金额为%s</translation>
     </message>
     <message>
         <location filename="../src/wallet/api/wallet.cpp" line="403"/>
         <source>failed to parse address</source>
-        <translation type="unfinished"></translation>
+        <translation>解析地址失败</translation>
     </message>
     <message>
         <location filename="../src/wallet/api/wallet.cpp" line="415"/>
         <source>failed to parse secret spend key</source>
-        <translation type="unfinished"></translation>
+        <translation>解析secret spend key失败</translation>
     </message>
     <message>
         <location filename="../src/wallet/api/wallet.cpp" line="425"/>
         <source>No view key supplied, cancelled</source>
-        <translation type="unfinished"></translation>
+        <translation>缺少view key, 中止</translation>
     </message>
     <message>
         <location filename="../src/wallet/api/wallet.cpp" line="432"/>
         <source>failed to parse secret view key</source>
-        <translation type="unfinished"></translation>
+        <translation>解析secret view key 失败</translation>
     </message>
     <message>
         <location filename="../src/wallet/api/wallet.cpp" line="442"/>
         <source>failed to verify secret spend key</source>
-        <translation type="unfinished"></translation>
+        <translation>验证secret spend key 失败</translation>
     </message>
     <message>
         <location filename="../src/wallet/api/wallet.cpp" line="447"/>
         <source>spend key does not match address</source>
-        <translation type="unfinished"></translation>
+        <translation>spend key与地址不匹配</translation>
     </message>
     <message>
         <location filename="../src/wallet/api/wallet.cpp" line="453"/>
         <source>failed to verify secret view key</source>
-        <translation type="unfinished"></translation>
+        <translation>验证secret view key 失败</translation>
     </message>
     <message>
         <location filename="../src/wallet/api/wallet.cpp" line="458"/>
         <source>view key does not match address</source>
-        <translation type="unfinished"></translation>
+        <translation>view key与地址不合</translation>
     </message>
     <message>
         <location filename="../src/wallet/api/wallet.cpp" line="477"/>
         <source>failed to generate new wallet: </source>
-        <translation type="unfinished"></translation>
+        <translation>生成新钱包失败:</translation>
     </message>
     <message>
         <location filename="../src/wallet/api/wallet.cpp" line="799"/>
         <source>Failed to load unsigned transactions</source>
-        <translation type="unfinished"></translation>
+        <translation>加载未签名交易失败</translation>
     </message>
     <message>
         <location filename="../src/wallet/api/wallet.cpp" line="820"/>
         <source>Failed to load transaction from file</source>
-        <translation type="unfinished"></translation>
+        <translation>从文件里加载交易失败</translation>
     </message>
     <message>
         <location filename="../src/wallet/api/wallet.cpp" line="838"/>
         <source>Wallet is view only</source>
-        <translation type="unfinished"></translation>
+        <translation>钱包是只读的</translation>
     </message>
     <message>
         <location filename="../src/wallet/api/wallet.cpp" line="847"/>
         <source>failed to save file </source>
-        <translation type="unfinished"></translation>
+        <translation>存储文件失败</translation>
     </message>
     <message>
         <location filename="../src/wallet/api/wallet.cpp" line="874"/>
         <source>Failed to import key images: </source>
-        <translation type="unfinished"></translation>
+        <translation>导入密钥镜像失败:</translation>
     </message>
     <message>
         <location filename="../src/wallet/api/wallet.cpp" line="987"/>
         <source>failed to get random outputs to mix: %s</source>
-        <translation type="unfinished"></translation>
+        <translation>获取混淆用的随机输出失败</translation>
     </message>
     <message>
         <location filename="../src/wallet/api/wallet.cpp" line="1003"/>
         <location filename="../src/wallet/api/wallet.cpp" line="1097"/>
         <source>not enough money to transfer, available only %s, transaction amount %s = %s + %s (fee)</source>
-        <translation type="unfinished"></translation>
+        <translation>余额不足, 余额仅%s, 交易金额为%s = %s + %s (手续费)</translation>
     </message>
     <message>
         <location filename="../src/wallet/api/wallet.cpp" line="1012"/>
         <location filename="../src/wallet/api/wallet.cpp" line="1106"/>
         <source>not enough outputs for specified mixin_count</source>
-        <translation type="unfinished"></translation>
+        <translation>没有足够的输出来混淆</translation>
     </message>
     <message>
         <location filename="../src/wallet/api/wallet.cpp" line="1014"/>
         <location filename="../src/wallet/api/wallet.cpp" line="1108"/>
         <source>output amount</source>
-        <translation type="unfinished"></translation>
+        <translation>输出金额</translation>
     </message>
     <message>
         <location filename="../src/wallet/api/wallet.cpp" line="1014"/>
         <location filename="../src/wallet/api/wallet.cpp" line="1108"/>
         <source>found outputs to mix</source>
-        <translation type="unfinished"></translation>
+        <translation>已找到足够的输来混淆</translation>
     </message>
     <message>
         <location filename="../src/wallet/api/wallet.cpp" line="1019"/>
         <location filename="../src/wallet/api/wallet.cpp" line="1113"/>
         <source>transaction was not constructed</source>
-        <translation type="unfinished"></translation>
+        <translation>交易没有构造</translation>
     </message>
     <message>
         <location filename="../src/wallet/api/wallet.cpp" line="1023"/>
         <location filename="../src/wallet/api/wallet.cpp" line="1117"/>
         <source>transaction %s was rejected by daemon with status: </source>
-        <translation type="unfinished"></translation>
+        <translation>交易%s被后台程序拒绝，状态: </translation>
     </message>
     <message>
         <location filename="../src/wallet/api/wallet.cpp" line="1030"/>
         <location filename="../src/wallet/api/wallet.cpp" line="1124"/>
         <source>one of destinations is zero</source>
-        <translation type="unfinished"></translation>
+        <translation>目标地址之一是0</translation>
     </message>
     <message>
         <location filename="../src/wallet/api/wallet.cpp" line="1033"/>
         <location filename="../src/wallet/api/wallet.cpp" line="1127"/>
         <source>failed to find a suitable way to split transactions</source>
-        <translation type="unfinished"></translation>
+        <translation>找不到合适的方法切分交易</translation>
     </message>
     <message>
         <location filename="../src/wallet/api/wallet.cpp" line="1036"/>
         <location filename="../src/wallet/api/wallet.cpp" line="1130"/>
         <source>unknown transfer error: </source>
-        <translation type="unfinished"></translation>
+        <translation>未知的交易错误: </translation>
     </message>
     <message>
         <location filename="../src/wallet/api/wallet.cpp" line="1039"/>
         <location filename="../src/wallet/api/wallet.cpp" line="1133"/>
         <source>internal error: </source>
-        <translation type="unfinished"></translation>
+        <translation>程序内部错误: </translation>
     </message>
     <message>
         <location filename="../src/wallet/api/wallet.cpp" line="1042"/>
         <location filename="../src/wallet/api/wallet.cpp" line="1136"/>
         <source>unexpected error: </source>
-        <translation type="unfinished"></translation>
+        <translation>未预料的错误</translation>
     </message>
     <message>
         <location filename="../src/wallet/api/wallet.cpp" line="1045"/>
         <location filename="../src/wallet/api/wallet.cpp" line="1139"/>
         <source>unknown error</source>
-        <translation type="unfinished"></translation>
+        <translation>未知的错误</translation>
     </message>
     <message>
         <location filename="../src/wallet/api/wallet.cpp" line="1419"/>
         <source>Rescan spent can only be used with a trusted daemon</source>
-        <translation type="unfinished"></translation>
+        <translation>重扫描花销只能用于受信任的后台程序</translation>
     </message>
 </context>
 <context>
@@ -320,7 +320,7 @@
     <message>
         <location filename="../src/wallet/api/wallet_manager.cpp" line="192"/>
         <source>failed to parse txid</source>
-        <translation type="unfinished"></translation>
+        <translation>解析交易ID失败</translation>
     </message>
     <message>
         <location filename="../src/wallet/api/wallet_manager.cpp" line="199"/>
@@ -331,42 +331,42 @@
     <message>
         <location filename="../src/wallet/api/wallet_manager.cpp" line="217"/>
         <source>failed to parse address</source>
-        <translation type="unfinished"></translation>
+        <translation>解析地址失败</translation>
     </message>
     <message>
         <location filename="../src/wallet/api/wallet_manager.cpp" line="227"/>
         <source>failed to get transaction from daemon</source>
-        <translation type="unfinished"></translation>
+        <translation>不能从后台程序获取交易</translation>
     </message>
     <message>
         <location filename="../src/wallet/api/wallet_manager.cpp" line="238"/>
         <source>failed to parse transaction from daemon</source>
-        <translation type="unfinished"></translation>
+        <translation>不能解析来自后台程序的交易</translation>
     </message>
     <message>
         <location filename="../src/wallet/api/wallet_manager.cpp" line="245"/>
         <source>failed to validate transaction from daemon</source>
-        <translation type="unfinished"></translation>
+        <translation>不能验证来自后台程序的交易</translation>
     </message>
     <message>
         <location filename="../src/wallet/api/wallet_manager.cpp" line="250"/>
         <source>failed to get the right transaction from daemon</source>
-        <translation type="unfinished"></translation>
+        <translation>不能从后台程序获取正确的交易</translation>
     </message>
     <message>
         <location filename="../src/wallet/api/wallet_manager.cpp" line="257"/>
         <source>failed to generate key derivation from supplied parameters</source>
-        <translation type="unfinished"></translation>
+        <translation>由提供的参数不能派生密钥</translation>
     </message>
     <message>
         <location filename="../src/wallet/api/wallet_manager.cpp" line="313"/>
         <source>error: </source>
-        <translation type="unfinished"></translation>
+        <translation>错误: </translation>
     </message>
     <message>
         <location filename="../src/wallet/api/wallet_manager.cpp" line="319"/>
         <source>received</source>
-        <translation type="unfinished"></translation>
+        <translation>已获取</translation>
     </message>
     <message>
         <location filename="../src/wallet/api/wallet_manager.cpp" line="319"/>
@@ -384,22 +384,22 @@
     <message>
         <location filename="../src/wallet/api/wallet.cpp" line="212"/>
         <source>Failed to parse address</source>
-        <translation type="unfinished"></translation>
+        <translation>解析地址失败</translation>
     </message>
     <message>
         <location filename="../src/wallet/api/wallet.cpp" line="219"/>
         <source>Failed to parse key</source>
-        <translation type="unfinished"></translation>
+        <translation>解析密钥失败</translation>
     </message>
     <message>
         <location filename="../src/wallet/api/wallet.cpp" line="227"/>
         <source>failed to verify key</source>
-        <translation type="unfinished"></translation>
+        <translation>验证密钥失败</translation>
     </message>
     <message>
         <location filename="../src/wallet/api/wallet.cpp" line="237"/>
         <source>key does not match address</source>
-        <translation type="unfinished"></translation>
+        <translation>密钥与地址不匹配</translation>
     </message>
 </context>
 <context>
@@ -407,7 +407,7 @@
     <message>
         <location filename="../src/common/command_line.cpp" line="76"/>
         <source>yes</source>
-        <translation type="unfinished"></translation>
+        <translation>是</translation>
     </message>
 </context>
 <context>
@@ -415,37 +415,37 @@
     <message>
         <location filename="../src/rpc/rpc_args.cpp" line="38"/>
         <source>Specify ip to bind rpc server</source>
-        <translation type="unfinished"></translation>
+        <translation>rpc服务的ip地址绑定</translation>
     </message>
     <message>
         <location filename="../src/rpc/rpc_args.cpp" line="39"/>
         <source>Specify username[:password] required for RPC server</source>
-        <translation type="unfinished"></translation>
+        <translation>rpc服务的账号[:密码]</translation>
     </message>
     <message>
         <location filename="../src/rpc/rpc_args.cpp" line="40"/>
         <source>Confirm rpc-bind-ip value is NOT a loopback (local) IP</source>
-        <translation type="unfinished"></translation>
+        <translation>确认rpc服务的ip地址绑定不是一个回环(本地)地址</translation>
     </message>
     <message>
         <location filename="../src/rpc/rpc_args.cpp" line="66"/>
         <source>Invalid IP address given for --</source>
-        <translation type="unfinished"></translation>
+        <translation>不合法的IP地址 --</translation>
     </message>
     <message>
         <location filename="../src/rpc/rpc_args.cpp" line="74"/>
         <source> permits inbound unencrypted external connections. Consider SSH tunnel or SSL proxy instead. Override with --</source>
-        <translation type="unfinished"></translation>
+        <translation>允许未加密的外部连接.请考虑用SSH隧道或SSL代理替代. 确定覆盖请使用 --</translation>
     </message>
     <message>
         <location filename="../src/rpc/rpc_args.cpp" line="89"/>
         <source>Username specified with --</source>
-        <translation type="unfinished"></translation>
+        <translation>填入用户名 --</translation>
     </message>
     <message>
         <location filename="../src/rpc/rpc_args.cpp" line="89"/>
         <source> cannot be empty</source>
-        <translation type="unfinished"></translation>
+        <translation>不可以为空</translation>
     </message>
 </context>
 <context>
@@ -453,92 +453,92 @@
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="290"/>
         <source>Commands: </source>
-        <translation type="unfinished"></translation>
+        <translation>指令: </translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="1557"/>
         <source>failed to read wallet password</source>
-        <translation type="unfinished"></translation>
+        <translation>读取钱包密码失败</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="1325"/>
         <source>invalid password</source>
-        <translation type="unfinished"></translation>
+        <translation>无效的密码</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="697"/>
         <source>start_mining [&lt;number_of_threads&gt;] - Start mining in daemon</source>
-        <translation type="unfinished"></translation>
+        <translation>开始挖矿 [&lt;number_of_threads&gt;] - 后台程序开始挖矿</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="698"/>
         <source>Stop mining in daemon</source>
-        <translation type="unfinished"></translation>
+        <translation>停止后台程序挖矿</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="699"/>
         <source>Save current blockchain data</source>
-        <translation type="unfinished"></translation>
+        <translation>存储当前区块链数据</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="701"/>
         <source>Show current wallet balance</source>
-        <translation type="unfinished"></translation>
+        <translation>显示当前钱包余额</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="704"/>
         <source>Show blockchain height</source>
-        <translation type="unfinished"></translation>
+        <translation>显示区块链高度</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="715"/>
         <source>Show current wallet public address</source>
-        <translation type="unfinished"></translation>
+        <translation>显示当前钱包公开地址</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="744"/>
         <source>Show this help</source>
-        <translation type="unfinished"></translation>
+        <translation>显示当前的帮助信息</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="788"/>
         <source>set seed: needs an argument. available options: language</source>
-        <translation type="unfinished"></translation>
+        <translation>set seed: 需要一个参数. 合法选项: 语言</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="811"/>
         <source>set: unrecognized argument(s)</source>
-        <translation type="unfinished"></translation>
+        <translation>set: 无效的参数</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="1442"/>
         <source>wallet file path not valid: </source>
-        <translation type="unfinished"></translation>
+        <translation>钱包文件路径无效: </translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="863"/>
         <source>Attempting to generate or restore wallet, but specified file(s) exist.  Exiting to not risk overwriting.</source>
-        <translation type="unfinished"></translation>
+        <translation>试图创建或恢复钱包，但钱包文件已存在。退出以避免覆盖</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="416"/>
         <source>usage: payment_id</source>
-        <translation type="unfinished"></translation>
+        <translation>用处: payment_id</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="710"/>
         <source>sweep_below &lt;amount_threshold&gt; [mixin] address [payment_id] - Send all unlocked outputs below the threshold to an address</source>
-        <translation type="unfinished"></translation>
+        <translation>sweepbelow &lt;amount_threshold&gt; [mixin] address [payment_id] - 把所有低于门槛值的已解锁输出发送到一个地址上</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="743"/>
         <source>Generate a new random full size payment id - these will be unencrypted on the blockchain, see integrated_address for encrypted short payment ids</source>
-        <translation type="unfinished"></translation>
+        <translation>生成一个新的完整大小的支付ID - 这个在区块链上是为加密的，如果想用加密的短支付ID，请参考 integrated_address</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="774"/>
         <source>needs an argument</source>
-        <translation type="unfinished"></translation>
+        <translation>需要一个参数</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="797"/>
@@ -549,7 +549,7 @@
         <location filename="../src/simplewallet/simplewallet.cpp" line="805"/>
         <location filename="../src/simplewallet/simplewallet.cpp" line="809"/>
         <source>0 or 1</source>
-        <translation type="unfinished"></translation>
+        <translation>0 或 1</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="800"/>
@@ -570,7 +570,7 @@
         <location filename="../src/simplewallet/simplewallet.cpp" line="912"/>
         <source>NOTE: the following 25 words can be used to recover access to your wallet. Write them down and store them somewhere safe and secure. Please do not store them in your email or on file storage services outside of your immediate control.
 </source>
-        <translation type="unfinished"></translation>
+        <translation>注意: 下面25个汉字可以用来恢复你的钱包. 请把它们写下来存在一个私密和安全的地方. 请不要存在电子邮箱里或者不受你直接控制的文件存储服务里.</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="958"/>
@@ -580,32 +580,32 @@
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="973"/>
         <source>specify a recovery parameter with the --electrum-seed=&quot;words list here&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>提供一个用来恢复钱包的参数,使用 --electrum-seed=&quot;密语&quot;</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="1123"/>
         <source>specify a wallet path with --generate-new-wallet (not --wallet-file)</source>
-        <translation type="unfinished"></translation>
+        <translation>提供一个钱包的路径, 使用 --generate-new-wallet (不是 --wallet-file)</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="1261"/>
         <source>wallet failed to connect to daemon: </source>
-        <translation type="unfinished"></translation>
+        <translation>钱包连接后台程序失败: </translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="1269"/>
         <source>Daemon uses a different RPC major version (%u) than the wallet (%u): %s. Either update one of them, or use --allow-mismatched-daemon-version.</source>
-        <translation type="unfinished"></translation>
+        <translation>后台程序的RPC协议的主版本(%u)与钱包的(%u)不同: %s. 请将其中的一个更新，或使用 --allow-mismatched-daemon-version.</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="1288"/>
         <source>List of available languages for your wallet&apos;s seed:</source>
-        <translation type="unfinished"></translation>
+        <translation>列出该钱包支持的密语语言: </translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="1297"/>
         <source>Enter the number corresponding to the language of your choice: </source>
-        <translation type="unfinished"></translation>
+        <translation>输入你选择的语言对应的数字</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="1354"/>
@@ -617,13 +617,13 @@
         <location filename="../src/simplewallet/simplewallet.cpp" line="1368"/>
         <location filename="../src/simplewallet/simplewallet.cpp" line="1425"/>
         <source>Generated new wallet: </source>
-        <translation type="unfinished"></translation>
+        <translation>创建一个新钱包: </translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="1374"/>
         <location filename="../src/simplewallet/simplewallet.cpp" line="1430"/>
         <source>failed to generate new wallet: </source>
-        <translation type="unfinished"></translation>
+        <translation>创建新钱包失败: </translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="1457"/>
@@ -645,98 +645,98 @@
         <location filename="../src/simplewallet/simplewallet.cpp" line="1481"/>
         <source>You had been using a deprecated version of the wallet. Your wallet file format is being upgraded now.
 </source>
-        <translation type="unfinished"></translation>
+        <translation>你之前使用的是一个被废弃的钱包版本. 你的钱包文件格式已被升级.</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="1489"/>
         <source>failed to load wallet: </source>
-        <translation type="unfinished"></translation>
+        <translation>加载钱包失败: </translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="1497"/>
         <source>Use the &quot;help&quot; command to see the list of available commands.
 </source>
-        <translation type="unfinished"></translation>
+        <translation>使用&quot;help&quot;指令来查看可用指令列表.</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="1541"/>
         <source>Wallet data saved</source>
-        <translation type="unfinished"></translation>
+        <translation>钱包数据已保存</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="1613"/>
         <source>Mining started in daemon</source>
-        <translation type="unfinished"></translation>
+        <translation>后台程序已启动挖矿</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="1615"/>
         <source>mining has NOT been started: </source>
-        <translation type="unfinished"></translation>
+        <translation>挖矿没有被启动: </translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="1634"/>
         <source>Mining stopped in daemon</source>
-        <translation type="unfinished"></translation>
+        <translation>后台已停止挖矿</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="1636"/>
         <source>mining has NOT been stopped: </source>
-        <translation type="unfinished"></translation>
+        <translation>挖矿没有被停止: </translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="1655"/>
         <source>Blockchain saved</source>
-        <translation type="unfinished"></translation>
+        <translation>区块链数据已保存</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="1670"/>
         <location filename="../src/simplewallet/simplewallet.cpp" line="1687"/>
         <location filename="../src/simplewallet/simplewallet.cpp" line="1699"/>
         <source>Height </source>
-        <translation type="unfinished"></translation>
+        <translation>高度 </translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="1671"/>
         <location filename="../src/simplewallet/simplewallet.cpp" line="1688"/>
         <location filename="../src/simplewallet/simplewallet.cpp" line="1700"/>
         <source>transaction </source>
-        <translation type="unfinished"></translation>
+        <translation>交易 </translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="1672"/>
         <source>received </source>
-        <translation type="unfinished"></translation>
+        <translation>已接收 </translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="1689"/>
         <source>spent </source>
-        <translation type="unfinished"></translation>
+        <translation>已花销 </translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="1701"/>
         <source>unsupported transaction format</source>
-        <translation type="unfinished"></translation>
+        <translation>该交易格式不支持</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="1718"/>
         <source>Starting refresh...</source>
-        <translation type="unfinished"></translation>
+        <translation>开始同步...</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="1731"/>
         <source>Refresh done, blocks received: </source>
-        <translation type="unfinished"></translation>
+        <translation>同步完成, 共收到区块: </translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="2186"/>
         <location filename="../src/simplewallet/simplewallet.cpp" line="2701"/>
         <source>payment id has invalid format, expected 16 or 64 character hex string: </source>
-        <translation type="unfinished"></translation>
+        <translation>支付ID格式无效, 应该为16或64个字符的十六进制字符串: </translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="2201"/>
         <source>bad locked_blocks parameter:</source>
-        <translation type="unfinished"></translation>
+        <translation>错误的locked_blocks参数:</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="2228"/>
