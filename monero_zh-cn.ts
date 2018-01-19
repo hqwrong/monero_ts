@@ -283,7 +283,7 @@
         <location filename="../src/wallet/api/wallet.cpp" line="1033"/>
         <location filename="../src/wallet/api/wallet.cpp" line="1127"/>
         <source>failed to find a suitable way to split transactions</source>
-        <translation>找不到合适的方法切分交易</translation>
+        <translation>找不到合适的方法拆分交易</translation>
     </message>
     <message>
         <location filename="../src/wallet/api/wallet.cpp" line="1036"/>
@@ -528,7 +528,7 @@
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="710"/>
         <source>sweep_below &lt;amount_threshold&gt; [mixin] address [payment_id] - Send all unlocked outputs below the threshold to an address</source>
-        <translation>sweepbelow &lt;amount_threshold&gt; [mixin] address [payment_id] - 把所有低于门槛值的已解锁输出发送到一个地址上</translation>
+        <translation>sweepbelow &lt;amount_threshold&gt; [mixin] address [payment_id] - 把所有低于阈值的已解锁输出发送到一个地址上</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="743"/>
@@ -639,7 +639,7 @@
         <location filename="../src/simplewallet/simplewallet.cpp" line="1466"/>
         <source>You had been using a deprecated version of the wallet. Please proceed to upgrade your wallet.
 </source>
-        <translation type="unfinished"></translation>
+        <translation>你之前使用的是一个被废弃的钱包版本. 请升级你的钱包.</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="1481"/>
@@ -717,7 +717,7 @@
         <source>unsupported transaction format</source>
         <translation>该交易格式不支持</translation>
     </message>
-    <message>
+    D<message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="1718"/>
         <source>Starting refresh...</source>
         <translation>开始同步...</translation>
@@ -742,7 +742,7 @@
         <location filename="../src/simplewallet/simplewallet.cpp" line="2228"/>
         <location filename="../src/simplewallet/simplewallet.cpp" line="2726"/>
         <source>a single transaction cannot use more than one payment id: </source>
-        <translation type="unfinished"></translation>
+        <translation>单个交易最多只能有一个支付ID: </translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="2237"/>
@@ -757,22 +757,22 @@
         <location filename="../src/simplewallet/simplewallet.cpp" line="2749"/>
         <location filename="../src/simplewallet/simplewallet.cpp" line="2794"/>
         <source>transaction cancelled.</source>
-        <translation type="unfinished"></translation>
+        <translation>交易已取消.</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="2323"/>
         <source>Sending %s.  </source>
-        <translation type="unfinished"></translation>
+        <translation>正在发送%s.</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="2326"/>
         <source>Your transaction needs to be split into %llu transactions.  This will result in a transaction fee being applied to each transaction, for a total fee of %s</source>
-        <translation type="unfinished"></translation>
+        <translation>你的交易需要被拆分成%llu个交易. 每一笔交易都需要一笔手续费, 供需手续费%s</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="2332"/>
         <source>The transaction fee is %s</source>
-        <translation type="unfinished"></translation>
+        <translation>手续费是%s</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="2335"/>
@@ -793,21 +793,21 @@
         <location filename="../src/simplewallet/simplewallet.cpp" line="2341"/>
         <source>.
 This transaction will unlock on block %llu, in approximately %s days (assuming 2 minutes per block)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">这笔交易将在区块%%llu上解锁,大概在%s天后(假设每两分钟一个区块)</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="2367"/>
         <location filename="../src/simplewallet/simplewallet.cpp" line="2544"/>
         <location filename="../src/simplewallet/simplewallet.cpp" line="2805"/>
         <source>Failed to write transaction(s) to file</source>
-        <translation type="unfinished"></translation>
+        <translation>不能将交易数据写入文件</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="2371"/>
         <location filename="../src/simplewallet/simplewallet.cpp" line="2548"/>
         <location filename="../src/simplewallet/simplewallet.cpp" line="2809"/>
         <source>Unsigned transaction(s) successfully written to file: </source>
-        <translation type="unfinished"></translation>
+        <translation>未签发的交易数据已成功写入文件: </translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="2406"/>
@@ -815,7 +815,7 @@ This transaction will unlock on block %llu, in approximately %s days (assuming 2
         <location filename="../src/simplewallet/simplewallet.cpp" line="2844"/>
         <location filename="../src/simplewallet/simplewallet.cpp" line="3157"/>
         <source>Not enough money in unlocked balance</source>
-        <translation type="unfinished"></translation>
+        <translation>可用余额不足</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="2415"/>
@@ -823,41 +823,41 @@ This transaction will unlock on block %llu, in approximately %s days (assuming 2
         <location filename="../src/simplewallet/simplewallet.cpp" line="2853"/>
         <location filename="../src/simplewallet/simplewallet.cpp" line="3166"/>
         <source>Failed to find a way to create transactions. This is usually due to dust which is so small it cannot pay for itself in fees, or trying to send more money than the unlocked balance, or not leaving enough for fees</source>
-        <translation type="unfinished"></translation>
+        <translation>创建交易失败. 可能的原因:余额太少不足以支付手续费，或者可用余额小于发送金额, 或者剩下的余额不足以支付手续费</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="2435"/>
         <location filename="../src/simplewallet/simplewallet.cpp" line="2612"/>
         <location filename="../src/simplewallet/simplewallet.cpp" line="2873"/>
         <source>Reason: </source>
-        <translation type="unfinished"></translation>
+        <translation>原因: </translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="2447"/>
         <location filename="../src/simplewallet/simplewallet.cpp" line="2624"/>
         <location filename="../src/simplewallet/simplewallet.cpp" line="2885"/>
         <source>failed to find a suitable way to split transactions</source>
-        <translation type="unfinished"></translation>
+        <translation>找不到合适的方法来拆分交易</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="2503"/>
         <source>No unmixable outputs found</source>
-        <translation type="unfinished"></translation>
+        <translation>找不到未混淆的输出</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="2709"/>
         <source>No address given</source>
-        <translation type="unfinished"></translation>
+        <translation>没有提供地址</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="2921"/>
         <source>missing amount threshold</source>
-        <translation type="unfinished"></translation>
+        <translation>缺少金额阈值</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="2926"/>
         <source>invalid amount threshold</source>
-        <translation type="unfinished"></translation>
+        <translation>无效的金额阈值</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="3008"/>
