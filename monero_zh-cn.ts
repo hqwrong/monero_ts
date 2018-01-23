@@ -523,12 +523,12 @@
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="416"/>
         <source>usage: payment_id</source>
-        <translation>用处: payment_id</translation>
+        <translation>用处: 支付ID</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="710"/>
         <source>sweep_below &lt;amount_threshold&gt; [mixin] address [payment_id] - Send all unlocked outputs below the threshold to an address</source>
-        <translation>sweepbelow &lt;amount_threshold&gt; [mixin] address [payment_id] - 把所有低于阈值的已解锁输出发送到一个地址上</translation>
+        <translation>sweepbelow &lt;金额阈值&gt; [混淆数] 地址 [支付ID] - 把所有数额低于阈值的可用输出发送到一个地址上</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="743"/>
@@ -611,7 +611,7 @@
         <location filename="../src/simplewallet/simplewallet.cpp" line="1354"/>
         <source>You had been using a deprecated version of the wallet. Please use the new seed that we provide.
 </source>
-        <translation type="unfinished"></translation>
+        <translation>你之前一直使用的是一个废弃的钱包版本. 请使用我们提供的新的密语.</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="1368"/>
@@ -628,7 +628,7 @@
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="1457"/>
         <source>Opened watch-only wallet</source>
-        <translation type="unfinished"></translation>
+        <translation>已打开只读钱包</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="1457"/>
@@ -872,32 +872,32 @@ This transaction will unlock on block %llu, in approximately %s days (assuming 2
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="3035"/>
         <source>sending %s to %s</source>
-        <translation type="unfinished"></translation>
+        <translation>发送%s到%s</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="3041"/>
         <source>with no destinations</source>
-        <translation type="unfinished"></translation>
+        <translation>没有提供目标地址</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="3088"/>
         <source>Failed to sign transaction</source>
-        <translation type="unfinished"></translation>
+        <translation>签发交易失败</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="3094"/>
         <source>Failed to sign transaction: </source>
-        <translation type="unfinished"></translation>
+        <translation>签发交易失败: </translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="3120"/>
         <source>Failed to load transaction from file</source>
-        <translation type="unfinished"></translation>
+        <translation>从文件里加载交易数据失败</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="3137"/>
         <source>daemon is busy. Please try later</source>
-        <translation type="unfinished"></translation>
+        <translation>后台正忙. 请稍后再试</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="1745"/>
@@ -907,52 +907,52 @@ This transaction will unlock on block %llu, in approximately %s days (assuming 2
         <location filename="../src/simplewallet/simplewallet.cpp" line="2833"/>
         <location filename="../src/simplewallet/simplewallet.cpp" line="3146"/>
         <source>RPC error: </source>
-        <translation type="unfinished"></translation>
+        <translation>RPC错误: </translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="312"/>
         <source>wallet is watch-only and has no spend key</source>
-        <translation type="unfinished"></translation>
+        <translation>该钱包是只读的,没有spend key</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="390"/>
         <source>Your original password was incorrect.</source>
-        <translation type="unfinished"></translation>
+        <translation>你的初始密码不正确.</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="404"/>
         <source>Error with wallet rewrite: </source>
-        <translation type="unfinished"></translation>
+        <translation>钱包覆盖出错: </translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="513"/>
         <source>priority must be 0, 1, 2, 3, or 4 </source>
-        <translation type="unfinished"></translation>
+        <translation>优先级必须是 0, 1, 2, 3 或4 </translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="525"/>
         <source>priority must be 0, 1, 2, 3,or 4</source>
-        <translation type="unfinished"></translation>
+        <translation>优先级必须是 0, 1, 2, 3 或 4</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="540"/>
         <source>priority must be 0, 1, 2 3,or 4</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">优先级必须是 0, 1, 2, 3 或 4</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="623"/>
         <source>invalid unit</source>
-        <translation type="unfinished"></translation>
+        <translation>无效的单位</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="641"/>
         <source>invalid count: must be an unsigned integer</source>
-        <translation type="unfinished"></translation>
+        <translation>无效的数量: 必须是无符号整型</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="659"/>
         <source>invalid value</source>
-        <translation type="unfinished"></translation>
+        <translation>无效的值</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="705"/>
@@ -962,84 +962,84 @@ This transaction will unlock on block %llu, in approximately %s days (assuming 2
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="709"/>
         <source>sweep_all [mixin] address [payment_id] - Send all unlocked balance to an address</source>
-        <translation type="unfinished"></translation>
+        <translation>sweep_all [混淆数] 地址 [支付ID] - 将所有的可用余额发送去一个地址</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="711"/>
         <source>donate [&lt;mixin_count&gt;] &lt;amount&gt; [payment_id] - Donate &lt;amount&gt; to the development team (donate.getmonero.org)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">donate [&lt;混淆数&gt;] &lt;金额&gt; [支付ID] - 捐款 &lt;金额&gt; 给开发团队 (donate.getmonero.org)</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="714"/>
         <source>set_log &lt;level&gt;|&lt;categories&gt; - Change current log detail (level must be &lt;0-4&gt;)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">set_log &lt;详细度&gt;|&lt;种类&gt; - 修改当前日志输出 (详细度必须为 &lt;0-4&gt;)</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="717"/>
         <source>address_book [(add (&lt;address&gt; [pid &lt;long or short payment id&gt;])|&lt;integrated address&gt; [&lt;description possibly with whitespaces&gt;])|(delete &lt;index&gt;)] - Print all entries in the address book, optionally adding/deleting an entry to/from it</source>
-        <translation type="unfinished"></translation>
+        <translation>address_book [(add (&lt;地址&gt; [pid &lt;支付ID&gt;])|&lt;合成地址&gt; [&lt;描述&gt;])|(delete &lt;编号&gt;)] - 打印地址薄里所有条目, 或者选择性的增删条目</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="729"/>
         <source>show_transfers [in|out|pending|failed|pool] [&lt;min_height&gt; [&lt;max_height&gt;]] - Show incoming/outgoing transfers within an optional height range</source>
-        <translation type="unfinished"></translation>
+        <translation>show_transfers [in|out|pending|failed|pool] [&lt;最小高度&gt; [&lt;最大高度&gt;]] - 显示进/出交易记录,可限定在某个高度范围</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="741"/>
         <source>Show information about a transfer to/from this address</source>
-        <translation type="unfinished"></translation>
+        <translation>显示一笔进出该地址的交易的详细信息</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="742"/>
         <source>Change wallet password</source>
-        <translation type="unfinished"></translation>
+        <translation>修改钱包密码</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="820"/>
         <source>usage: set_log &lt;log_level_number_0-4&gt; | &lt;categories&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>用法: set_log &lt;log_level_number_0-4&gt; | &lt;categories&gt;</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="886"/>
         <source>(Y/Yes/N/No): </source>
-        <translation type="unfinished"></translation>
+        <translation>(Y/Yes/N/No): </translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="1157"/>
         <location filename="../src/simplewallet/simplewallet.cpp" line="1184"/>
         <source>bad m_restore_height parameter: </source>
-        <translation type="unfinished"></translation>
+        <translation>错误的m_restore_height参数: </translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="1162"/>
         <source>date format must be YYYY-MM-DD</source>
-        <translation type="unfinished"></translation>
+        <translation>日期格式必须为YYYY-MM-DD</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="1175"/>
         <source>Restore height is: </source>
-        <translation type="unfinished"></translation>
+        <translation>恢复高度为: </translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="1176"/>
         <location filename="../src/simplewallet/simplewallet.cpp" line="2348"/>
         <source>Is this okay?  (Y/Yes/N/No): </source>
-        <translation type="unfinished"></translation>
+        <translation>可以吗? (Y/Yes/N/No)</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="1212"/>
         <source>Daemon is local, assuming trusted</source>
-        <translation type="unfinished"></translation>
+        <translation>后台运行在本地, 认为是可信任的</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="1553"/>
         <source>Password for new watch-only wallet</source>
-        <translation type="unfinished"></translation>
+        <translation>新建只读钱包的密码</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="1604"/>
         <source>invalid arguments. Please use start_mining [&lt;number_of_threads&gt;] [do_bg_mining] [ignore_battery], &lt;number_of_threads&gt; should be from 1 to </source>
-        <translation type="unfinished"></translation>
+        <translation>无效的参数. 请使用start_mining [&lt;number_of_threads&gt;] [do_bg_mining] [ignore_battery], &lt;number_of_threads&gt; 应该从1到</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="1755"/>
@@ -1048,7 +1048,7 @@ This transaction will unlock on block %llu, in approximately %s days (assuming 2
         <location filename="../src/simplewallet/simplewallet.cpp" line="2895"/>
         <location filename="../src/simplewallet/simplewallet.cpp" line="3205"/>
         <source>internal error: </source>
-        <translation type="unfinished"></translation>
+        <translation>内部错误: </translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="1760"/>
@@ -1058,7 +1058,7 @@ This transaction will unlock on block %llu, in approximately %s days (assuming 2
         <location filename="../src/simplewallet/simplewallet.cpp" line="2900"/>
         <location filename="../src/simplewallet/simplewallet.cpp" line="3210"/>
         <source>unexpected error: </source>
-        <translation type="unfinished"></translation>
+        <translation>未预料的错误: </translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="1765"/>
@@ -1068,84 +1068,84 @@ This transaction will unlock on block %llu, in approximately %s days (assuming 2
         <location filename="../src/simplewallet/simplewallet.cpp" line="2905"/>
         <location filename="../src/simplewallet/simplewallet.cpp" line="3215"/>
         <source>unknown error</source>
-        <translation type="unfinished"></translation>
+        <translation>未知错误</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="1770"/>
         <source>refresh failed: </source>
-        <translation type="unfinished"></translation>
+        <translation>同步失败: </translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="1770"/>
         <source>Blocks received: </source>
-        <translation type="unfinished"></translation>
+        <translation>已收到区块: </translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="1795"/>
         <source>unlocked balance: </source>
-        <translation type="unfinished"></translation>
+        <translation>可用余额: </translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="808"/>
         <location filename="../src/simplewallet/simplewallet.cpp" line="1846"/>
         <location filename="../src/simplewallet/simplewallet.cpp" line="1896"/>
         <source>amount</source>
-        <translation type="unfinished"></translation>
+        <translation>数额</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="1846"/>
         <source>spent</source>
-        <translation type="unfinished"></translation>
+        <translation>已花</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="1846"/>
         <source>global index</source>
-        <translation type="unfinished"></translation>
+        <translation>全局编号</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="1846"/>
         <source>tx id</source>
-        <translation type="unfinished"></translation>
+        <translation>交易ID</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="1868"/>
         <source>No incoming transfers</source>
-        <translation type="unfinished"></translation>
+        <translation>没有转入的交易</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="1872"/>
         <source>No incoming available transfers</source>
-        <translation type="unfinished"></translation>
+        <translation>转入的交易里没有可用的</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="1876"/>
         <source>No incoming unavailable transfers</source>
-        <translation type="unfinished"></translation>
+        <translation>转入的交易没有不可用的</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="1887"/>
         <source>expected at least one payment_id</source>
-        <translation type="unfinished"></translation>
+        <translation>至少需一个支付ID</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="1896"/>
         <source>payment</source>
-        <translation type="unfinished"></translation>
+        <translation>支付</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="1896"/>
         <source>transaction</source>
-        <translation type="unfinished"></translation>
+        <translation>交易</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="1896"/>
         <source>height</source>
-        <translation type="unfinished"></translation>
+        <translation>高度</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="1896"/>
         <source>unlock time</source>
-        <translation type="unfinished"></translation>
+        <translation>解锁时间</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="1908"/>
