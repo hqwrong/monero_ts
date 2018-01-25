@@ -1157,12 +1157,12 @@ This transaction will unlock on block %llu, in approximately %s days (assuming 2
         <location filename="../src/simplewallet/simplewallet.cpp" line="2026"/>
         <location filename="../src/simplewallet/simplewallet.cpp" line="2280"/>
         <source>failed to get blockchain height: </source>
-        <translation type="unfinished"></translation>
+        <translation>获取区块链失败,高度: </translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="2016"/>
         <source>failed to connect to the daemon</source>
-        <translation type="unfinished"></translation>
+        <translation>连接不上后台</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="2034"/>
